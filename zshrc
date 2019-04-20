@@ -100,8 +100,6 @@ plugins=(
    pip
 )
 
-
-
 pk () {
     if [ $1 ] ; then
         case $1 in
