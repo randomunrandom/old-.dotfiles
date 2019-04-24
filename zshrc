@@ -98,6 +98,8 @@ plugins=(
 
    python
    pip
+   
+   zsh-syntax-highlighting
 )
 
 pk () {
