@@ -1,5 +1,6 @@
 #!/bin/sh
 
-cd ~
-sudo dnf history userinstalled > dnf_history
+#cd ~
+#sudo dnf history userinstalled > dnf_history
+#mkrc ~/dnf_history
 
