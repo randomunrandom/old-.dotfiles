@@ -1,3 +1,3 @@
-EXCLUDES="README.md"
-UNDOTTED="dnf_history"
+EXCLUDES="README.md dnf_history"
+COPY_ALWAYS="rcrc"
 
