@@ -1,7 +1,8 @@
 export PATH=~/.local/bin:$PATH
+export TERM="xterm-256color"
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOCONNECT=false
+# ZSH_TMUX_AUTOSTART=true
+# ZSH_TMUX_AUTOCONNECT=false
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -98,7 +99,8 @@ plugins=(
 
    python
    pip
-   
+#    pipenv
+
    zsh-syntax-highlighting
 )
 
@@ -197,3 +199,8 @@ fi
 export LANG=en_US.UTF-8
 
 # export MANPATH="/usr/local/man:$MANPATH"
+
+export PATH=$HOME/.cargo/bin:$PATH
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+export PATH="$PATH:/opt/yarn-[version]/bin"

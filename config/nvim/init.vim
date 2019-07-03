@@ -20,10 +20,10 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'scrooloose/nerdcommenter'             " coment lines
     Plug 'Yggdroot/indentLine'                  " show indention
     Plug 'blueshirts/darcula'                   " theme
-    Plug 'dracula/vim'                          " theme
-    " Plug 'joshdick/onedark.vim'                 " theme
+    Plug 'joshdick/onedark.vim'                 " theme
     " Plug 'cocopon/iceberg.vim/'                 " theme
     " Plug 'chriskempson/base16-vim'              " theme
+    " Plug 'srcery-colors/srcery-vim'             " theme
     "=== external tools suport ===
     Plug 'edkolev/tmuxline.vim'                 " tmux support
     Plug 'editorconfig/editorconfig-vim'        " .editorconfig support
@@ -46,9 +46,11 @@ autocmd VimEnter * " install mising plugins
     endif
 
 "===== theme setup ====="
+set t_Co=256
 set termguicolors
-"let g:airline_theme='base16_atelierlakeside'
-colorscheme darcula
+let g:airline_theme='base16_atelierlakeside'
+" colorscheme darcula
+colorscheme onedark
 
 "===== prefered settings ====="
 set autoindent
