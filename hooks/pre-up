@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cd ~
-sudo dnf history userinstalled >> dnf_history
+sudo dnf history userinstalled > dnf_history
 
